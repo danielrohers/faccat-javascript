@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>JavaScript jQuery</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+</head>
+<body>
+
+    <form class="pure-form pure-form-stacked">
+
+        <label for="primeiro-valor">Primeiro Valor: </label>
+        <input id="primeiro-valor" type="number" step="any" required>
+
+        <label for="segundo-valor">Segundo Valor: </label>
+        <input id="segundo-valor" type="number" step="any" required>
+
+        <button type="submit" class="operador pure-button">+</button>
+        <button type="submit" class="operador pure-button">-</button>
+        <button type="submit" class="operador pure-button">*</button>
+        <button type="submit" class="operador pure-button">/</button>
+
+        <label>Resultado: <span id="resultado"></span></label>
+
+    </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
